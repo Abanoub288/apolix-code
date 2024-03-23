@@ -1,0 +1,109 @@
+section {
+  padding: 0px 50px;
+  margin-top: 150px;
+  margin-bottom: 50px;
+  margin-left: 35px;
+}
+section .head {
+  margin: auto;
+  width: 1050px;
+}
+section .head p {
+  font-size: 80px;
+  font-weight: 600;
+  line-height: 80px;
+}
+section .head p .span1 {
+  color: #f4acb7;
+}
+section .head p .span2 {
+  color: #4177e0;
+}
+section .p-arrow {
+  margin-top: 50px;
+}
+section .p-arrow p {
+  padding: 10px 20px;
+  background: #0b2545;
+  font-size: 24px;
+  color: #f1f6f9;
+  border-radius: 50px;
+}
+section .p-arrow .arrow i {
+  position: relative;
+  font-size: 50px;
+  margin-right: 30px;
+  padding: 16px 25px;
+  border: 1px solid #0b2545;
+  border-radius: 20px;
+  transition: 0.2s all ease-in-out;
+  cursor: pointer;
+}
+section .p-arrow .arrow i::after {
+  position: absolute;
+  content: '';
+  transition: 0.2s all ease-in-out;
+  border: 3px solid #abb8c3;
+  width: 116px;
+  height: 106px;
+  top: -10px;
+  left: -11px;
+  border-radius: 20px;
+  display: none;
+}
+section .p-arrow .arrow i:hover {
+  background: #4177e0;
+  color: #f1f6f9;
+  border: none;
+}
+section .p-arrow .arrow i:hover::after {
+  display: block;
+}
+section .cards {
+  margin-top: 20px;
+  position: relative;
+  width: 3100px;
+  /* overflow-x: hidden; */
+}
+section .cards .card {
+  border-radius: 20px;
+  margin-right: 10px;
+  width: 100%;
+  background: rgb(247 252 255 / 74%);
+  backdrop-filter: blur(15px) brightness(105%);
+}
+section .cards .card:hover  {
+  opacity: .5;
+}
+section .cards .card .text {
+  padding: 30px;
+  margin-left: 30px;
+}
+section .cards .card .text .rocket {
+  font-size: 80px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+section .cards .card .text h4 {
+  color: #0b2545;
+  width: 400px;
+  font-size: 40px;
+  font-weight: 600;
+}
+section .cards .card .text p {
+  margin-top: 30px;
+  font-size: 30px;
+}
+section .cards .card .text .right {
+  text-align: end;
+  cursor: pointer;
+}
+section .cards .card .text .right i {
+  font-size: 30px;
+  padding: 25px;
+  background-color: #abb8c366;
+  border-radius: 50%;
+  top: unset;
+  right: 20px;
+  bottom: 20px;
+}

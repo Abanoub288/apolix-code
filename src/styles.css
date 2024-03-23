@@ -1,1 +1,16 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+  margin: 0;
+  padding: 0;
+  background: #c7dbe6;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #0b2545;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "Object Sans", Helvetica, Arial, sans-serif;
+  overflow-x: hidden;
+  height: 6000px;
+}
+.c-white {
+  color: #c7e0ee;
+}

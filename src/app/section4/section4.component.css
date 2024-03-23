@@ -1,0 +1,96 @@
+section {
+  margin: 200px 30px 30px;
+  background-color: #0b2545;
+  border-radius: 20px;
+}
+section .body {
+  padding: 50px 40px;
+}
+section .body {
+  position: relative;
+}
+section .body .rotate {
+  position: absolute;
+  transform: rotate(90deg);
+  top: 53%;
+  left: 0px;
+}
+section .body .rotate  {
+  color: #f1f6f9;
+  font-size: 20px;
+}
+section .body .rotate span {
+  color: #0951a9ea;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+section .body .rotate .num {
+  padding: 10px 15px;
+  border: 2px solid #f1f6f9;
+  border-radius: 50%;
+}
+section .body .text h5 {
+  background: #c7dbe6;
+  width: 330px;
+  margin: auto;
+  font-size: 25px;
+  padding: 10px 0px;
+  border-radius: 50px;
+  margin-top: 150px;
+  margin-bottom: 40px;
+}
+section .body .text p {
+  color: #f7fafa;
+  margin: auto;
+  font-weight: 600;
+  font-size: 75px;
+  max-width: 80%;
+}
+section .slider {
+  margin-bottom: 100px;
+  margin-left: 250px;
+}
+section .slider .slid {
+  position: relative;
+  background: rgba(199,219,230,.062745098);
+  backdrop-filter: blur(15px) brightness(105%);
+  width: 40%;
+  margin:10px;
+  border-radius: 30px;
+  transition: 0.2s all ease-in-out;
+}
+section .slider .slid:hover {
+  background: #f7fafa;
+  backdrop-filter: blur(15px) brightness(105%);
+  font-weight: 500;
+  cursor: url('../../assets/95462-صورة-رائد-الفضاء-الجديدة.png'), auto;
+}
+section .slider .slid .content {
+  padding: 22px 50px;
+  align-items: center;
+}
+section .slider .slid .content span {
+  font-size: 30px;
+  font-weight: 600;
+  margin-right: 70px;
+  color: #f7fafa;
+  transition: 0.2s all ease-in-out;
+}
+section .slider .slid:hover .content span,
+section .slider .slid:hover .content h5 {
+  color: #0b2545;
+  font-weight: 400;
+}
+section .slider .slid .content i {
+  font-size: 50px;
+  margin-right: 30px
+}
+section .slider .slid .content h5 {
+  font-size: 25px;
+  font-weight: 600;
+  color: #f7fafa;
+  transition: 0.2s all ease-in-out;
+}
+section .slider .l-slid {
+  margin-left: 21%;
+}

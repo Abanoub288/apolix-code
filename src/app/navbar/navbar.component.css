@@ -1,0 +1,84 @@
+nav {
+  padding: 40px;
+}
+nav .logo {
+  margin-right: 75px;
+  font-size: 50px;
+  color: #c7e0ee;
+  letter-spacing: 7px;
+  transition: .2s all ease-in-out;
+  width: 180px;
+  overflow: visible;
+}
+nav .logo:hover {
+  letter-spacing: 9px;
+}
+nav ul li {
+  padding: 10px 30px;
+  margin-right: 80px;
+  margin-top: 8px;
+}
+nav ul li:hover {
+  background: #dfe3e512;
+  border-radius: 50px;
+}
+nav ul li a {
+  font-size: 22px;
+  font-weight: 500;
+}
+nav ul .dropdown-menu {
+  background: rgba(199,219,230,.062745098);
+  color: #f1f6f9;
+  backdrop-filter: blur(15px) brightness(105%);
+  border: none;
+  border-radius: 20px;
+  margin-top: 20px;
+  width: 290px;
+}
+nav ul .dropdown-menu li {
+  transition: 0.3s;
+}
+nav ul .dropdown-menu li:hover {
+  padding-left: 50px;
+}
+nav ul .dropdown-menu li a {
+  color: #f1f6f9;
+  text-decoration: none;
+}
+nav a:hover {
+  color: #c7e0ee;
+}
+nav .button {
+  width: 200px;
+  margin-right: 100px;
+  position: relative;
+}
+nav button {
+  background: rgba(199,219,230,.062745098);
+  color: #f1f6f9;
+  backdrop-filter: blur(15px) brightness(105%);
+  padding: 30px;
+  width: 300px;
+  font-size: 27px;
+  border-radius: 20px !important;
+  transition: 0.2s;
+}
+nav button:hover {
+  background: #f1f6f9;
+  color: #0b2545;
+}
+nav .button img {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  left: 365px;
+  bottom: 0px;
+  border: 5px solid white;
+  transform: rotate(37deg);
+  transition: 0.3s;
+}
+nav .button:hover img {
+  left: 278px;
+  bottom: 20px;
+}

@@ -1,0 +1,98 @@
+footer {
+  background: #0b2545;
+}
+footer .body {
+  width: 90%;
+  margin: auto;
+  /* position: relative; */
+}
+footer .body .logo img {
+  margin-top: 200px;
+  margin-bottom: 10px;
+  width: 200px;
+  height: 200px;
+}
+footer .body .prag {
+  margin-left: 30px;
+  margin-bottom: 170px;
+}
+footer .body .prag p {
+  color: #f1f6f9;
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 60px;
+}
+footer .body .row {
+  margin-bottom: 150px;
+}
+footer  .body .row .content {
+  margin-left: 30px;
+}
+footer .body .row .content i {
+  color: #f1f6f9;
+  padding: 24px;
+  font-size: 25px;
+  width: 70px;
+  height: 70px;
+  background: #4177e061;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+footer .body .row .content p {
+  color: #f1f6f9;
+  font-size: 35px;
+  margin-left: 20px;
+  cursor: pointer;
+  transition: .3s;
+}
+footer .body .row .content p:hover {
+  color: #0951a9ea;
+}
+footer .body .row .ul1 {
+  margin: 0 90px;
+  list-style: none;
+}
+footer .body .row .ul1 li {
+  color: #f1f6f9;
+  font-size: 30px;
+  margin-bottom: 50px;
+  cursor: pointer;
+  transition: .3s;
+}
+footer .body .row .ul1 li:hover {
+  color: #0951a9ea;
+}
+footer .body .row .ul2 {
+  margin: 0 60px;
+  list-style: none;
+}
+footer .body .row .ul2 li {
+  color: #f1f6f9;
+  font-size: 30px;
+  margin-bottom: 50px;
+  cursor: pointer;
+  transition: .3s;
+}
+footer .body .row .ul2 li:hover {
+  color: #0951a9ea;
+}
+footer .body .row  .last img {
+  /* position: absolute;
+  top: 10; */
+  width: 150px;
+  height: 200px;
+  margin-left: 70px;
+}
+footer .body .end {
+  margin-bottom: 30px;
+}
+footer .body .end p {
+  color: #c7dbe6;
+  font-size: 30px;
+  margin-right: 60px;
+  transition: .3s;
+  cursor: pointer;
+}
+footer .body .end p:hover {
+  color: #0951a9ea;
+}
