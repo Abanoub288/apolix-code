@@ -11,57 +11,24 @@
         <i class="fa-solid fa-arrow-right"></i>
       </div>
     </div>
-    <div class="cards d-flex">
-      <div class="card"  class="item">
-        <div class="text">
-          <i class="fa-solid fa-rocket rocket" style="color: #74C0FC;"></i>
-          <h4>Customer success stories</h4>
-          <p>Find inspiration in our customer succes stories. We have extensive process and industry knowledge.</p>
-          <div class="right">
-            <i class="fa-solid fa-arrow-right right"></i>
+    <owl-carousel-o [options]="customOptions">
+      <ng-container *ngFor="let slide of slides">
+        <ng-template  carouselSlide [id?]="slide.id" >
+          <div class="slides">
+          <div class="ng-container">
+            <div class="text">
+              <i class="fa-solid fa-rocket rocket" style="color: #74C0FC;"></i>
+              <h4>{{slide.title}}</h4>
+              <p>{{slide.prag}}</p>
+              <div class="right">
+                <i class="fa-solid fa-arrow-right right"></i>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
-      <div class="card">
-        <div class="text">
-          <i class="fa-solid fa-rocket rocket" style="color: #74C0FC;"></i>
-          <h4>Customer success stories</h4>
-          <p>Find inspiration in our customer succes stories. We have extensive process and industry knowledge.</p>
-          <div class="right">
-            <i class="fa-solid fa-arrow-right right"></i>
           </div>
-        </div>
-      </div>
-      <div class="card">
-        <div class="text">
-          <i class="fa-solid fa-rocket rocket" style="color: #74C0FC;"></i>
-          <h4>Customer success stories</h4>
-          <p>Find inspiration in our customer succes stories. We have extensive process and industry knowledge.</p>
-          <div class="right">
-            <i class="fa-solid fa-arrow-right right"></i>
-          </div>
-        </div>
-      </div>
-      <div class="card">
-        <div class="text">
-          <i class="fa-solid fa-rocket rocket" style="color: #74C0FC;"></i>
-          <h4>Customer success stories</h4>
-          <p>Find inspiration in our customer succes stories. We have extensive process and industry knowledge.</p>
-          <div class="right">
-            <i class="fa-solid fa-arrow-right right"></i>
-          </div>
-        </div>
-      </div>
-      <div class="card">
-        <div class="text">
-          <i class="fa-solid fa-rocket rocket" style="color: #74C0FC;"></i>
-          <h4>Customer success stories</h4>
-          <p>Find inspiration in our customer succes stories. We have extensive process and industry knowledge.</p>
-          <div class="right">
-            <i class="fa-solid fa-arrow-right right"></i>
-          </div>
-        </div>
-      </div>
-    </div>
+        </ng-template>
+      </ng-container>
+
+    </owl-carousel-o>
   </div>
 </section>

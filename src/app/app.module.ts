@@ -13,7 +13,8 @@ import { Section5Component } from './section5/section5.component';
 import { Section6Component } from './section6/section6.component';
 import { FooterComponent } from './footer/footer.component';
 import { RouterModule } from '@angular/router';
-
+import { CarouselModule } from 'ngx-owl-carousel-o';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,9 @@ import { RouterModule } from '@angular/router';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    RouterModule
+    RouterModule,
+    BrowserAnimationsModule,
+    CarouselModule
   ],
   providers: [],
   bootstrap: [AppComponent]

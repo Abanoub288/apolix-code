@@ -55,7 +55,7 @@ footer .body .row .ul1 {
 footer .body .row .ul1 li {
   color: #f1f6f9;
   font-size: 30px;
-  margin-bottom: 50px;
+  margin-bottom: 80px;
   cursor: pointer;
   transition: .3s;
 }
@@ -69,16 +69,14 @@ footer .body .row .ul2 {
 footer .body .row .ul2 li {
   color: #f1f6f9;
   font-size: 30px;
-  margin-bottom: 50px;
   cursor: pointer;
   transition: .3s;
+  margin-bottom: 80px;
 }
 footer .body .row .ul2 li:hover {
   color: #0951a9ea;
 }
 footer .body .row  .last img {
-  /* position: absolute;
-  top: 10; */
   width: 150px;
   height: 200px;
   margin-left: 70px;
@@ -92,6 +90,7 @@ footer .body .end p {
   margin-right: 60px;
   transition: .3s;
   cursor: pointer;
+  margin-bottom: 50px;
 }
 footer .body .end p:hover {
   color: #0951a9ea;

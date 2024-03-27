@@ -5,32 +5,14 @@
       <button class="btn">All resources</button>
     </div>
     <div class="sliads d-flex">
-      <div class="sliad">
+      <div class="sliad" *ngFor="let sliad of sliades">
         <div class="img">
-          <img src="../../assets/11.jpg" alt="">
+          <img src="{{imgSrc}}" alt="">
         </div>
         <div class="span">
-          <span>Update</span>
+          <span>{{sliad.span}}</span>
         </div>
-        <p>Apolian Spotlight: Ashley Kalila Meijer</p>
-      </div>
-      <div class="sliad">
-        <div class="img">
-          <img src="../../assets/11.jpg" alt="">
-        </div>
-        <div class="span">
-          <span>Update</span>
-        </div>
-        <p>Simplifying Wedding Planning with Process Mining: Real-Life Case</p>
-      </div>
-      <div class="sliad">
-        <div class="img">
-          <img src="../../assets/11.jpg" alt="">
-        </div>
-        <div class="span">
-          <span>Update</span>
-        </div>
-        <p>Celonis Payment Term Checker</p>
+        <p>{{sliad.prag}}</p>
       </div>
     </div>
   </div>

@@ -59,46 +59,46 @@ section .p-arrow .arrow i:hover {
 section .p-arrow .arrow i:hover::after {
   display: block;
 }
-section .cards {
+section .slides {
   margin-top: 20px;
-  position: relative;
-  width: 3100px;
-  /* overflow-x: hidden; */
+  cursor: pointer;
+  width: 600px;
 }
-section .cards .card {
+section .slides .ng-container {
   border-radius: 20px;
   margin-right: 10px;
-  width: 100%;
+  width: 600px;
   background: rgb(247 252 255 / 74%);
   backdrop-filter: blur(15px) brightness(105%);
 }
-section .cards .card:hover  {
-  opacity: .5;
-}
-section .cards .card .text {
+
+section .slides .ng-container .text {
   padding: 30px;
   margin-left: 30px;
 }
-section .cards .card .text .rocket {
+section .slides .ng-container .text .rocket {
   font-size: 80px;
   margin-top: 30px;
   margin-bottom: 20px;
 }
-section .cards .card .text h4 {
+section .slides .ng-container .text h4 {
   color: #0b2545;
   width: 400px;
   font-size: 40px;
-  font-weight: 600;
+  font-weight: 500;
+  line-height: 1;
 }
-section .cards .card .text p {
+section .slides .ng-container .text p {
   margin-top: 30px;
   font-size: 30px;
+  line-height: 1.3;
+  width: 400px;
 }
-section .cards .card .text .right {
+section .slides .ng-container .text .right {
   text-align: end;
   cursor: pointer;
 }
-section .cards .card .text .right i {
+section .slides .ng-container .text .right i {
   font-size: 30px;
   padding: 25px;
   background-color: #abb8c366;

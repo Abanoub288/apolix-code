@@ -23,15 +23,20 @@ section .sliders .slider .slide {
   border-radius: 20px;
   margin-bottom: 20px;
 }
-section .sliders .slider .slide p {
+section .sliders .slider .slide h5 {
   color: #f1f6f9;
   font-size: 20px;
-  margin-bottom: 0;
+  margin-bottom: 25px;
 }
 section .sliders .slider .slide span {
   color: #f4acb7;
   font-weight: bold;
   font-size: 60px;
+}
+section .sliders .slider .slide p {
+  color: #f1f6f9;
+  font-size: 20px;
+  margin-top: 20px;
 }
 section .text  {
   background: #0b2545;
@@ -41,17 +46,19 @@ section .text  {
 }
 section .text h5 {
   text-align: center;
-  padding-top: 9px;
   color: #f1f6f9;
+  font-size: 22px;
+  padding: 10px;
 }
 section .prag {
   margin-top: 50px;
   width: 70%;
 }
 section .prag p {
-  font-size: 60px;
+  font-size: 75px;
   font-weight: 600;
   color: #0b2545;
+  line-height: 1.2;
 }
 section .prag2 {
   margin-top: 20px;

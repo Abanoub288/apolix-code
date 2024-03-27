@@ -1,17 +1,20 @@
 header {
   background: linear-gradient(#f4acb7,#0b2545);
+  height: 1000px;
 }
 header .header {
-  padding: 0px 50px;
+  padding: 0px 100px;
 }
 header .header h1 {
-  margin-top: -97px;
-  font-size: 105px;
-  font-weight: bold;
+  margin-top: -65px;
+  font-size: 125px;
+  font-weight: 500;
   color: #f7fafa;
+  line-height: 1;
 }
 header .header .text {
   margin-top: 50px;
+  margin-bottom: 70px;
 }
 header .header .text button {
   width: 85px;
@@ -37,12 +40,23 @@ header .header .bottom {
 }
 header .header .bottom p {
   color: #f7fafa;
+  font-size: 20px;
+}
+header .header .bottom .item {
+  margin-top: 40px;
+  width: 500px;
+}
+header .header .bottom .item .img {
+  width: 110px;
+  height: 60px;
+  margin-right: 10px;
 }
 header .header .bottom .button2 {
   background: #0b2545;
   border-radius: 20px;
   padding: 20px;
   margin-bottom: 100px;
+  margin-top: 40px;
   transition: 0.2s all ease-in-out;
 }
 header .header .bottom .button2:hover {

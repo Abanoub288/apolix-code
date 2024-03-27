@@ -9,8 +9,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
   font-family: "Object Sans", Helvetica, Arial, sans-serif;
   overflow-x: hidden;
-  height: 6000px;
 }
 .c-white {
   color: #c7e0ee;
 }
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

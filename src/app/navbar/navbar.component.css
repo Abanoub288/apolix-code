@@ -1,5 +1,5 @@
 nav {
-  padding: 40px;
+  padding: 40px 60px;
 }
 nav .logo {
   margin-right: 75px;
@@ -42,8 +42,10 @@ nav ul .dropdown-menu li:hover {
   padding-left: 50px;
 }
 nav ul .dropdown-menu li a {
+  padding: 0;
   color: #f1f6f9;
   text-decoration: none;
+  width: 100%;
 }
 nav a:hover {
   color: #c7e0ee;
@@ -72,7 +74,7 @@ nav .button img {
   width: 60px;
   height: 60px;
   border-radius: 50%;
-  left: 365px;
+  left: 385px;
   bottom: 0px;
   border: 5px solid white;
   transform: rotate(37deg);

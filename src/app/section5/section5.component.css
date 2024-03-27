@@ -48,8 +48,8 @@ section .body .sliads .sliad:hover img {
 }
 section .body .sliads .sliad .span {
   position: relative;
-  margin-top: 15px;
-  margin-bottom: 15px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 section .body .sliads .sliad .span::after {
   position: absolute;
@@ -59,7 +59,7 @@ section .body .sliads .sliad .span::after {
   border-radius: 50%;
   background: #4a4b4d;
   left: 23px;
-  top: 12px;
+  top: 0px;
 }
 section .body .sliads .sliad span {
   padding: 10px 20px 10px 60px;
@@ -70,4 +70,5 @@ section .body .sliads .sliad span {
 section .body .sliads .sliad p {
   font-size: 39px;
   font-weight: 600;
+  line-height: 1.2;
 }

@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class Section5Component {
 
+  imgSrc: string = '../../assets/11.jpg';
+
+  sliades = [
+    { span: 'Update', prag: 'Apolian Spotlight: Ashley Kalila Meijer'},
+    { span: 'Update', prag: 'Simplifying Wedding Planning with Process Mining: Real-Life Case'},
+    { span: 'Update', prag: 'Celonis Payment Term Checker'},
+  ]
 }
